@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "aboutMe": "Sobre mí",
+    "skills": "Habilidades",
+    "myProjects": "Mis proyectos",
+    "contact": "Contacto"
+  },
+  "header": {
+    "cv": "CV",
+    "follow": "SEGUIR"
+  },
+  "hero": {
+    "name": "BLAS SEBASTIAN CALDERON TORRES",
+    "typewriter": [
+      "@Blasecato",
+      "Desarrollador FullStack",
+      "React & TypeScript",
+      "Entusiasta de UI/UX",
+      "Siempre aprendiendo"
+    ],
+    "particles": [
+      "SEBASTIAN",
+      "FULLSTACK",
+      "DESARROLLADOR",
+      "DISEÑADOR",
+      "BLASECATO",
+      "INNOVADOR"
+    ]
+  },
+  "about": {
+    "title": "Detrás del Código",
+    "description1": "Desarrollador Full Stack con amplia experiencia construyendo aplicaciones web escalables y experiencias de usuario intuitivas. Me especializo en tecnologías modernas como React, Next.js, NestJS, React Native, TypeScript y PostgreSQL, y disfruto llevar productos desde el concepto hasta producción de extremo a extremo.",
+    "description2": "Soy el puente entre diseño y desarrollo — convierto ideas en soluciones limpias, funcionales y visualmente atractivas. Apasionado por el rendimiento, la escalabilidad y la creación de productos digitales impactantes que resuelven problemas del mundo real.",
+    "photo": {
+      "entries": [
+        {
+          "designation": "Creativo · Proactivo · Disruptivo",
+          "quote": "Enfrento cada reto con creatividad y un profundo sentido de responsabilidad. Soy proactivo por naturaleza — anticipo los problemas antes de que ocurran y convierto las limitaciones en oportunidades. Me desenvuelvo en entornos disruptivos donde la innovación es el objetivo real, aportando energía, compromiso y pensamiento fresco a cada equipo y proyecto."
+        },
+        {
+          "designation": "Desarrollador FullStack",
+          "quote": "Con dominio sólido de React, TypeScript, Node.js, NestJS, PostgreSQL y más, construyo soluciones de extremo a extremo que son rápidas, escalables y mantenibles. Desde la arquitectura de APIs robustas hasta interfaces pixel-perfect, manejo el stack completo con precisión y una genuina pasión por el código limpio y bien estructurado."
+        },
+        {
+          "designation": "Persona Primero · Dev Después",
+          "quote": "Más allá de la pantalla, soy alguien que valora profundamente las conexiones reales. Mi familia y amigos son mi base — me mantienen con los pies en la tierra y me recuerdan lo que verdaderamente importa. Creo que el mejor trabajo lo hacen personas que genuinamente se preocupan, y esa mentalidad guía todo lo que hago, en la vida y en el código."
+        }
+      ]
+    }
+  },
+  "skills": {
+    "badge": "⚡ Habilidades",
+    "title": "Tecnologías con las que trabajo",
+    "description": "Una colección de herramientas y frameworks que uso para construir experiencias web modernas.",
+    "viewProjects": "Ver proyectos"
+  },
+  "projects": {
+    "badge": "Mis proyectos",
+    "title": "Proyectos entregados",
+    "description": "Una selección de proyectos que he construido para clientes y proyectos personales.",
+    "viewProject": "Ver proyecto",
+    "items": [
+      {
+        "title": "BerrySafe",
+        "role": "Desarrollador Full Stack",
+        "description": "Desarrollo full stack de una plataforma enfocada en seguridad. Construí el producto completo desde el diseño en Figma hasta las integraciones backend, incluyendo plantillas de correo, modelado de base de datos con PostgreSQL y MongoDB y gestión de estado con Redux."
+      },
+      {
+        "title": "Liftit",
+        "role": "Desarrollador Frontend",
+        "description": "Desarrollo frontend para una startup líder en logística. Construí un sitio de marketing de alto rendimiento con Gatsby y GraphQL, con animaciones avanzadas para comunicar la propuesta de valor del producto."
+      },
+      {
+        "title": "Simón Movilidad",
+        "role": "Desarrollador Frontend",
+        "description": "Desarrollo frontend para una plataforma de movilidad urbana. Construí interfaces con renderizado del lado del servidor en Next.js, integré APIs externas con Axios y diseñé plantillas de correo responsivas."
+      },
+      {
+        "title": "Finanzauto",
+        "role": "Desarrollador Frontend",
+        "description": "Desarrollo frontend para un portal de financiamiento automotriz. Construí interfaces dinámicas con React consumiendo APIs de NestJS mediante Axios para entregar una experiencia fluida de gestión de créditos."
+      },
+      {
+        "title": "Condimentos Monik",
+        "role": "Desarrollador Full Stack",
+        "description": "Desarrollo full stack para una marca de condimentos. Diseñé la UI/UX en Figma, modelé la base de datos en PostgreSQL, construí la API backend con NestJS y GraphQL y el frontend con Next.js y Zustand."
+      },
+      {
+        "title": "Celagem",
+        "role": "Desarrollador Frontend",
+        "description": "Desarrollo frontend para una clínica de estética médica. Construí interfaces responsivas con React y Redux, implementando diseños precisos con Sass y estándares modernos de HTML5."
+      },
+      {
+        "title": "Comfandi",
+        "role": "Desarrollador Full Stack",
+        "description": "Desarrollo full stack para una de las cajas de compensación familiar más grandes de Colombia. Construí el backend con Next.js y Prisma ORM, y el frontend con Next.js, Redux y Tailwind CSS."
+      },
+      {
+        "title": "Juego del Impostor",
+        "role": "Desarrollador de Apps Móviles",
+        "description": "App de juego móvil diseñada y prototipada en Figma. Construida con React Native y Expo, con integración de API de inteligencia artificial para generar contenido dinámico, TypeScript, Redux y Tailwind para una experiencia pulida multiplataforma."
+      },
+      {
+        "title": "Siegenco",
+        "role": "Desarrollador Frontend",
+        "description": "Desarrollo frontend para una empresa de ingeniería y construcción. Construí un sitio corporativo bilingüe en WordPress con personalizaciones avanzadas de CSS y plantillas PHP personalizadas."
+      },
+      {
+        "title": "Carmenta Labs",
+        "role": "Desarrollador Frontend",
+        "description": "Desarrollo frontend para un laboratorio tecnológico. Construí una experiencia web animada de alto rendimiento con React, enfocada en transiciones suaves y técnicas modernas de CSS."
+      },
+      {
+        "title": "ATG",
+        "role": "Desarrollador Frontend",
+        "description": "Desarrollo frontend de una aplicación móvil para ATG. Construida con React Native usando Redux para la gestión de estado, Styled Components para el tema personalizado y una librería de componentes de React Native para garantizar una UI consistente y pulida en todas las plataformas."
+      },
+      {
+        "title": "Amasfac",
+        "role": "Desarrollador Frontend",
+        "description": "Desarrollo frontend del sitio institucional de una asociación en WordPress. Implementé plantillas PHP personalizadas y administré el entorno de desarrollo local."
+      }
+    ]
+  },
+  "clients": {
+    "badge": "Clientes",
+    "title": "Trayectoria colaborativa",
+    "description": "Opiniones reales de personas con quienes he trabajado.",
+    "testimonials": [
+      {
+        "text": "La capacidad de Sebastián para entregar a tiempo, siempre, hizo que nuestras operaciones funcionaran sin fricciones. Es confiable, profesional y siempre da un paso más. Trabajar con él fue una de las mejores decisiones que tomamos para el producto.",
+        "name": "Alejandro Marmorek",
+        "role": "Director de Operaciones"
+      },
+      {
+        "text": "Colaborar con Sebastián desde el backend fue muy sencillo. Entendió los contratos de API rápidamente, hizo las preguntas correctas e integró todo de forma limpia. Su trabajo frontend hizo que el sistema completo brillara.",
+        "name": "Carlos Ortiz",
+        "role": "Desarrollador Backend"
+      },
+      {
+        "text": "Como Tech Lead he trabajado con muchos desarrolladores, pero Sebastián se destaca. Su código es limpio, escalable y bien estructurado. Acepta el feedback positivamente y eleva constantemente el estándar de calidad del equipo.",
+        "name": "Mateo Ceballos",
+        "role": "Tech Lead"
+      },
+      {
+        "text": "Trabajar junto a Sebastián como colega frontend fue genuinamente inspirador. Su atención al detalle, arquitectura de componentes y precisión en CSS me impulsaron a mejorar. Un verdadero artesano del código.",
+        "name": "Juan David Riascos",
+        "role": "Desarrollador Frontend"
+      },
+      {
+        "text": "Desde la gestión de proyectos, Sebastián es un sueño. Se comunica de forma proactiva, cumple sus plazos y se adapta rápido a los cambios. Siempre mantuvo al equipo alineado y el sprint en curso.",
+        "name": "Fanny Galvis",
+        "role": "Project Manager"
+      },
+      {
+        "text": "Sebastián tiene un ojo increíble para la UI. Trabajamos juntos en varias funcionalidades y sus implementaciones siempre fueron pixel-perfect. Aporta profundidad técnica y sensibilidad de diseño a cada componente.",
+        "name": "Michelle Penna",
+        "role": "Desarrolladora Frontend"
+      },
+      {
+        "text": "Sebastián es el tipo de desarrollador que todo tech lead quiere en su equipo. Resuelve problemas de forma independiente, escribe código mantenible y siempre piensa en el panorama general. Su crecimiento técnico es notable.",
+        "name": "Yeison Gómez",
+        "role": "Tech Lead"
+      },
+      {
+        "text": "La escalabilidad y el rendimiento de las funcionalidades que construyó Sebastián me impresionaron. Piensa más allá del sprint actual y considera la mantenibilidad futura desde el primer día. Exactamente lo que buscas en un dev senior.",
+        "name": "Juan Ramos",
+        "role": "Tech Lead"
+      },
+      {
+        "text": "El impacto de Sebastián en nuestro producto fue inmediato y duradero. Transformó requerimientos complejos en soluciones elegantes y siempre tuvo al usuario final en mente. Profesional, talentoso y un placer trabajar con él.",
+        "name": "Diana Correal",
+        "role": "Directora de Operaciones"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Contacto",
+    "title": "Construyamos algo juntos",
+    "description": "Siempre estoy abierto a nuevas oportunidades, colaboraciones y proyectos interesantes. No dudes en escribirme — normalmente respondo en menos de 24 horas.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje",
+      "send": "Enviar mensaje",
+      "sending": "Enviando...",
+      "sent": "¡Mensaje enviado!",
+      "error": "Algo salió mal"
+    },
+    "social": {
+      "handles": {
+        "whatsapp": "Enviar mensaje"
+      }
+    },
+    "profile": {
+      "name": "Sebastian Calderon",
+      "role": "Desarrollador FullStack · @Blasecato"
+    }
+  },
+  "map": {
+    "based": "Ubicado en",
+    "location": "Bogotá, Colombia"
+  },
+  "footer": {
+    "sections": {
+      "navigation": "Navegación",
+      "contact": "Contacto",
+      "social": "Social"
+    },
+    "links": {
+      "inicio": "Inicio",
+      "aboutMe": "Sobre mí",
+      "skills": "Habilidades",
+      "myProjects": "Mis proyectos",
+      "contact": "Contacto",
+      "cv": "CV",
+      "github": "GitHub",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© {{year}} Sebastian Calderon. Todos los derechos reservados."
+  }
+}
