@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react';
 import Map, { Marker, NavigationControl } from 'react-map-gl/mapbox';
-import mapboxgl from 'mapbox-gl';
+import type { MapRef } from 'react-map-gl/mapbox';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useTranslation } from 'react-i18next';
 import { MapPin } from 'lucide-react';
@@ -17,11 +17,11 @@ export function MapSection() {
     ? 'mapbox://styles/mapbox/satellite-streets-v12'
     : 'mapbox://styles/mapbox/satellite-streets-v12';
 
-  const mapRef = useRef<mapboxgl.Map | null>(null);
+  const mapRef = useRef<MapRef | null>(null);
 
   // Add atmosphere/fog on map load for globe effect
   useEffect(() => {
-    const map = mapRef.current;
+    const map = mapRef.current?.getMap();
     if (!map) return;
     map.setFog({
       color: isDark ? 'rgb(10, 10, 30)' : 'rgb(186, 210, 235)',
@@ -51,7 +51,7 @@ export function MapSection() {
         {/* Map container */}
         <div className="relative w-full h-[520px] rounded-3xl overflow-hidden border border-foreground/10">
           <Map
-            ref={(ref) => { if (ref) mapRef.current = ref.getMap(); }}
+            ref={(ref) => { mapRef.current = ref; }}
             mapboxAccessToken={TOKEN}
             initialViewState={{
               longitude: BOGOTA.longitude,

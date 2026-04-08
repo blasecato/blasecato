@@ -9,26 +9,6 @@ interface GlowingTextareaProps extends React.TextareaHTMLAttributes<HTMLTextArea
   label?: string;
 }
 
-const GlowLayer = ({ height, width, rotate, gradient, blur }: {
-  height: string;
-  width: string;
-  rotate: string;
-  gradient: string;
-  blur: string;
-}) => (
-  <div
-    className={cn(
-      "absolute z-[-1] overflow-hidden rounded-xl",
-      blur,
-    )}
-    style={{ height, width, maxHeight: height, maxWidth: width, top: 0, left: 0, right: 0, bottom: 0, margin: "auto" }}
-  >
-    <div
-      className="absolute z-[-2] w-[999px] h-[999px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-[2000ms] group-hover:rotate-[-120deg] group-focus-within:rotate-[420deg] group-focus-within:duration-[4000ms]"
-      style={{ backgroundImage: gradient, backgroundRepeat: "no-repeat", transform: `translate(-50%, -50%) rotate(${rotate})` }}
-    />
-  </div>
-);
 
 export function GlowingInput({ label, className, ...props }: GlowingInputProps) {
   return (

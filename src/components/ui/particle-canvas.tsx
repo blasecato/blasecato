@@ -73,7 +73,7 @@ export function ParticleCanvas({
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const gl = canvas.getContext('webgl', { alpha: true });
+    const gl = canvas.getContext('webgl', { alpha: true }) as WebGLRenderingContext;
     if (!gl) return;
 
     const w = window.innerWidth;

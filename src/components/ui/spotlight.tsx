@@ -1,4 +1,4 @@
-import React, { useRef, useState, useCallback, useEffect } from 'react';
+import { useRef, useState, useCallback, useEffect } from 'react';
 import { motion, useSpring, useTransform } from 'framer-motion';
 import type { SpringOptions } from 'framer-motion';
 import { cn } from '@/lib/utils';
