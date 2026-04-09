@@ -7,12 +7,12 @@ export function SplineSceneBasic() {
   const { t } = useTranslation();
 
   return (
-    <Card className="w-full h-[500px] bg-foreground/[0.04] relative overflow-hidden border-foreground/10">
+    <Card className="w-full h-auto md:h-[500px] bg-foreground/[0.04] relative overflow-hidden border-foreground/10">
       <Spotlight size={300} />
 
       <div className="flex h-full">
         {/* Left content */}
-        <div className="flex-1 p-8 relative z-10 flex flex-col justify-center">
+        <div className="w-full md:flex-1 p-8 relative z-10 flex flex-col justify-center">
           <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-foreground to-foreground/50">
             {t('about.title')}
           </h1>
@@ -23,8 +23,8 @@ export function SplineSceneBasic() {
           </p>
         </div>
 
-        {/* Right content */}
-        <div className="flex-1 relative">
+        {/* Right content — hidden on mobile */}
+        <div className="hidden md:flex flex-1 relative">
           <SplineScene
             scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
             className="w-full h-full"

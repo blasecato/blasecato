@@ -45,9 +45,16 @@
 }
 
 .arrowButtons {
-  display: flex;
+  display: none;
   gap: 1.5rem;
   padding-top: 3rem;
+}
+
+.mobileArrows {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0 0.5rem;
 }
 
 .arrowButton {
@@ -83,7 +90,12 @@
   }
 
   .arrowButtons {
+    display: flex;
     padding-top: 0;
+  }
+
+  .mobileArrows {
+    display: none;
   }
 
   .mobileProfileImage {

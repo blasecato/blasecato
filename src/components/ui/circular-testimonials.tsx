@@ -181,6 +181,30 @@ export const CircularTestimonials = ({
             />
           ))}
         </div>
+        {/* Arrows below images — mobile only */}
+        <div className={styles.mobileArrows}>
+          <button
+            className={styles.arrowButton}
+            onClick={handlePrev}
+            style={{ backgroundColor: hoverPrev ? colorArrowHoverBg : colorArrowBg }}
+            onMouseEnter={() => setHoverPrev(true)}
+            onMouseLeave={() => setHoverPrev(false)}
+            aria-label="Previous"
+          >
+            <FaArrowLeft size={28} color={colorArrowFg} />
+          </button>
+          <button
+            className={styles.arrowButton}
+            onClick={handleNext}
+            style={{ backgroundColor: hoverNext ? colorArrowHoverBg : colorArrowBg }}
+            onMouseEnter={() => setHoverNext(true)}
+            onMouseLeave={() => setHoverNext(false)}
+            aria-label="Next"
+          >
+            <FaArrowRight size={28} color={colorArrowFg} />
+          </button>
+        </div>
+
         <div className={styles.testimonialContent}>
           <AnimatePresence mode="wait">
             <motion.div
