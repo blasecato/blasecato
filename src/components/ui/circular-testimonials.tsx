@@ -33,6 +33,7 @@ interface CircularTestimonialsProps {
   autoplay?: boolean;
   colors?: Colors;
   fontSizes?: FontSizes;
+  profileImage?: string;
 }
 
 function calculateGap(width: number) {
@@ -51,6 +52,7 @@ export const CircularTestimonials = ({
   autoplay = true,
   colors = {},
   fontSizes = {},
+  profileImage,
 }: CircularTestimonialsProps) => {
   const colorName = colors.name ?? "#000";
   const colorDesignation = colors.designation ?? "#6b7280";
@@ -189,6 +191,11 @@ export const CircularTestimonials = ({
               exit="exit"
               transition={{ duration: 0.3, ease: "easeInOut" }}
             >
+              {profileImage && (
+                <div className={styles.mobileProfileImage}>
+                  <img src={profileImage} alt="Profile" />
+                </div>
+              )}
               <h3
                 className={styles.name}
                 style={{ color: colorName, fontSize: fontSizeName }}
